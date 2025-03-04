@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Button Component</title>
+    <style>
+      .custom-button {
+        background-color: #4caf50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+
+      .custom-button:hover {
+        background-color: #45a049;
+      }
+
+      .container {
+        height: 400px;
+        width: 400px;
+        background-color: #cabbd0;
+        margin-bottom: 20px;
+        text-align: center;
+        /* position: relative; */
+      }
+      .child {
+        /* position: absolute; */
+        top: 50%;
+        left: 50%;
+        /* transform: translate(-50%, -50%); */
+      }
+      .practice-3 {
+        border: 1px solid #000;
+        padding: 10px;
+        width: 200px;
+        background-color: #cabbd0;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Practice 1</div>
+    <button class="custom-button">Click Me</button>
+    <div style="margin-top: 20px">Practice 2</div>
+
+    <div class="container">
+      <div class="child">Hello! (#cabbd0)</div>
+    </div>
+
+    <div style="margin-top: 20px">Practice 3</div>
+    <div class="practice-3">
+      <div>
+        <img src="https://placehold.co/200x200" alt="image" />
+      </div>
+      <div style="text-align: center">Hi I am Adhikansh</div>
+    </div>
+  </body>
+</html>
