@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flex Box</title>
+
+    <style>
+      body {
+        margin: 0px;
+      }
+      .container {
+        display: flex;
+        flex-direction: row;
+        column-gap: 10px;
+        margin: 10px;
+      }
+      .item {
+        flex: 1;
+        padding: 10px;
+      }
+      .item1 {
+        background-color: aqua;
+      }
+      .item2 {
+        background-color: cadetblue;
+      }
+      .item3 {
+        background-color: bisque;
+      }
+      #one {
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="item item1" id="one">
+        <h3>Pick up where you left off</h3>
+        <div
+          style="display: flex; column-gap: 10px; justify-content: space-around"
+        >
+          <div style="">
+            <img
+              src="https://m.media-amazon.com/images/I/515yorvYb4L._AC_SY110_.jpg"
+            />
+            <p>Red Print Anarkali...</p>
+          </div>
+          <div style="background-color: blue">
+            <img
+              src="https://m.media-amazon.com/images/I/515yorvYb4L._AC_SY110_.jpg"
+            />
+            <p>Red Print Anarkali...</p>
+          </div>
+        </div>
+        <div></div>
+      </div>
+      <div class="item item2">2nd Item</div>
+      <div class="item item3">3rd Item</div>
+    </div>
+  </body>
+</html>
